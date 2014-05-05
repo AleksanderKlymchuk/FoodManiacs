@@ -14,13 +14,14 @@ namespace FoodManiacs.Models
         public string title { get; set; }
         public string description { get; set; }
         public string image_id { get; set; }
-        public string user_id { get; set; }
         public string ingredients { get; set; }
         public string how_to { get; set; }
+        
+        public virtual ICollection<ApplicationUser> User { get; set; }
         
     }
     public class RecipeDBContext : DbContext
     {
-        public DbSet<Recipe> Recipes { get; set; }
+        public DbSet<Recipe> Recipe { get; set; }
     }
 }

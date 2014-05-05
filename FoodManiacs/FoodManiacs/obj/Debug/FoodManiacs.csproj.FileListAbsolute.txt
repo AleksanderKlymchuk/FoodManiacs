@@ -121,3 +121,4 @@ C:\Users\Administrator\Documents\GitHub\FoodManiacs\FoodManiacs\FoodManiacs\obj\
 C:\Users\Administrator\Documents\GitHub\FoodManiacs\FoodManiacs\FoodManiacs\obj\Debug\FoodManiacs.pdb
 C:\Users\Administrator\Documents\GitHub\FoodManiacs\FoodManiacs\FoodManiacs\bin\MySql.Data.dll
 C:\Users\Administrator\Documents\GitHub\FoodManiacs\FoodManiacs\FoodManiacs\bin\MySql.Data.Entity.EF6.dll
+C:\Users\Administrator\Documents\GitHub\FoodManiacs\FoodManiacs\FoodManiacs\obj\Debug\FoodManiacs.csprojResolveAssemblyReference.cache
