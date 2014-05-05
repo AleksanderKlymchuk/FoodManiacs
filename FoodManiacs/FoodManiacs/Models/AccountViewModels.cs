@@ -59,5 +59,19 @@ namespace FoodManiacs.Models
         [Display(Name = "Confirm password")]
         [Compare("Password", ErrorMessage = "The password and confirmation password do not match.")]
         public string ConfirmPassword { get; set; }
+
+        [DataType(DataType.EmailAddress)]
+        [Display(Name = "Email")]
+        public string Email { get; set; }
+
+        [Display(Name = "Role")]
+        public string Role { get; set; }
+
+        [DataType(DataType.Date)]
+        [Display(Name = "Date created")]
+        public string date_created { get; set; }
+
+
+
     }
 }
